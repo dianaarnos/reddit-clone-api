@@ -1,7 +1,7 @@
 {
-  "name": "babel-nodejs-setup",
+  "name": "reddit-clone-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "my personal studies on nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,20 +12,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DmsChrisPena/babel-nodejs-setup.git"
+    "url": "git+https://github.com/dianaarnos/reddit-clone-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DmsChrisPena/babel-nodejs-setup/issues"
+    "url": "https://github.com/dianaarnos/reddit-clone-api/issues"
   },
-  "homepage": "https://github.com/DmsChrisPena/babel-nodejs-setup#readme",
+  "homepage": "https://github.com/dianaarnos/reddit-clone-api#readme",
   "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-stage-2": "^6.22.0",
-    "babel-register": "^6.22.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
     "dotenv": "^4.0.0",
     "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
   }
 }
