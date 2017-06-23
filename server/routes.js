@@ -3,6 +3,7 @@ import express from 'express';
 // controllers import
 import basicController from './controllers/basicController';
 import userController from './controllers/userController';
+import postController from './controllers/postController';
 
 const routes = express();
 
@@ -12,5 +13,8 @@ routes.get('/', basicController.get);
 // user routes
 routes.post('/signup', userController.post);
 
+
+// post routes
+routes.post('/post', postController.post);
 
 export default routes;
